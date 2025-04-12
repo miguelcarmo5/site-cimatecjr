@@ -1,0 +1,195 @@
+:root {
+  --redbull-red: #dc0a1d;
+  --redbull-blue: #002a5c;
+  --redbull-yellow: #ffcc00;
+  --redbull-silver: #e1e1e1;
+  --redbull-dark-gray: #343a40;
+}
+
+body {
+  padding-top: 3.5rem; 
+  font-family: 'poppinsregular', sans-serif; 
+}
+
+
+.navbar {
+  background-color: var(--redbull-blue) !important; 
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    font-family: 'poppinssemibold', sans-serif; 
+}
+
+.navbar .btn-outline-success {
+  border-color: var(--redbull-yellow);
+  color: var(--redbull-yellow);
+}
+.navbar .btn-outline-success:hover {
+  background-color: var(--redbull-yellow);
+  color: var(--redbull-blue); 
+  border-color: var(--redbull-yellow);
+}
+
+
+#myCarousel .carousel-inner {
+  padding-left: 5%; 
+  padding-right: 5%; 
+  background-color: #f8f9fa; 
+}
+
+
+#myCarousel .carousel-item img {
+  display: block; 
+  object-fit: contain; 
+  max-height: 70vh; 
+  margin: 0 auto; 
+  width: auto; 
+  max-width: 100%; 
+}
+
+#myCarousel {
+  margin-bottom: 4rem; 
+}
+
+.btn-primary {
+  background-color: var(--redbull-red);
+  border-color: var(--redbull-red);
+  font-family: 'poppinsmedium', sans-serif; 
+}
+.btn-primary:hover,
+.btn-primary:focus { 
+  background-color: #a10816; 
+  border-color: #a10816;
+  box-shadow: none; 
+}
+.btn-secondary { 
+  background-color: var(--redbull-dark-gray);
+  border-color: var(--redbull-dark-gray);
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+   background-color: #212529;
+   border-color: #212529;
+}
+
+
+
+h1, h2, .featurette-heading, #catalogo h2, .card-title {
+  font-family: 'poppinsbold', sans-serif; 
+  color: var(--redbull-blue); 
+}
+.carousel-caption h1 { 
+   color: rgb(0, 0, 0);
+   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7); 
+}
+
+.carousel-caption p {
+  color: black;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+a {
+  color: var(--redbull-red);
+  text-decoration: none; 
+}
+a:hover {
+  color: var(--redbull-blue); 
+  text-decoration: underline; 
+}
+.nav-link:hover { 
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    text-decoration: none;
+}
+.footer_link:hover {
+    text-decoration: none; 
+}
+.carousel-caption a.btn:hover { 
+    text-decoration: none;
+}
+
+footer {
+  border-top: 3px solid var(--redbull-silver); 
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+footer .footer_link i {
+  color: var(--redbull-blue); 
+  font-size: 1.5rem; 
+  margin: 0 0.5rem;
+  transition: color 0.3s ease; 
+}
+footer .footer_link i:hover {
+  color: var(--redbull-red); 
+}
+.card {
+   border: 1px solid var(--redbull-silver); 
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+   transition: transform 0.2s ease-in-out; 
+}
+.card:hover {
+    transform: translateY(-5px); 
+}
+.card-title {
+   color: var(--redbull-blue); 
+}
+
+.modal-header {
+  background-color: var(--redbull-blue);
+  color: white; 
+  border-bottom: none; 
+}
+.modal-header .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%); 
+}
+.modal-title {
+   color: white;
+   font-family: 'poppinsbold', sans-serif;
+}
+.modal-content {
+    border: none;
+    border-radius: 0.5rem; 
+}
+.modal-footer {
+    border-top: 1px solid var(--redbull-silver); 
+}
+
+
+mark {
+  background-color: var(--redbull-yellow);
+  padding: 0.2em;
+  border-radius: 3px;
+  color: var(--redbull-dark-gray); 
+}
+
+
+.featurette-divider {
+    margin: 4rem 0; 
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-top: 0; 
+  }
+  .featurette-heading {
+    margin-top: 2rem;
+  }
+  #myCarousel .carousel-inner {
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+  #myCarousel .carousel-item img {
+      max-height: 50vh; 
+  }
+  .carousel-caption h1 {
+      font-size: 1.8rem; 
+  }
+   .carousel-caption p {
+      font-size: 0.9rem;
+  }
+   .carousel-caption .btn {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+  }
+}
