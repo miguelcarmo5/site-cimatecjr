@@ -5,7 +5,7 @@
 
 Este projeto é uma landing page responsiva para a marca Red Bull, desenvolvida como um exercício prático para aplicar e aprofundar conhecimentos em tecnologias front-end, além de pleitear a tão sonhada vaga no cimatec jr. A página apresenta informações sobre a marca, um catálogo interativo de produtos, seções informativas e segue a identidade visual da Red Bull.
 
-**Importante:** Este projeto foi desenvolvido em um contexto de aprendizado onde o uso do framework Bootstrap e a assistência de ferramentas de IA (como o Google Gemini e Chatgpt), além de amigos e profissionais da aréa. O foco foi aprender a utilizar essas ferramentas de forma eficaz, entender o código gerado/sugerido e integrá-lo em um projeto coeso. Agradeço desde ja a oportunidade de programar pela primeira vez nessas linguagens.
+**Importante:** Este projeto foi desenvolvido em um contexto de aprendizado onde o uso do framework Bootstrap e a assistência de ferramentas de IA (como o Google Gemini e Chatgpt), além de amigos e profissionais da aréa. O foco foi aprender a utilizar essas ferramentas de forma eficaz, entender como fazer o código e integrá-lo em um projeto coeso. Agradeço desde já a oportunidade de programar pela primeira vez nessas linguagens.
 
 ## Funcionalidades Implementadas
 
