@@ -54,7 +54,6 @@ Este projeto foi construído iterativamente com foco no aprendizado das tecnolog
     * Pedir sugestões de código CSS para aplicar estilos específicos.
     * Obter ajuda na geração da lógica inicial para a funcionalidade de busca em JavaScript.
     * Tirar dúvidas sobre conceitos e sintaxe.
-    * **Minha Contribuição Ativa:** Definir os requisitos funcionais e visuais, guiar a ferramenta com prompts, integrar as partes de código geradas/sugeridas, depurar problemas, realizar testes, refinar o CSS para a identidade visual final e garantir a funcionalidade completa do site. O principal objetivo do uso da IA foi acelerar o aprendizado e entender diferentes abordagens para a solução de problemas.
 
 ## Autor
 
